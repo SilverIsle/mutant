@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("background.png"); /* Replace with your PNG image file */
+    background-size: cover;
+    background-position: center;
+    background-color: #f0f0f0;
+    color: #333333; /* Text color */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Set background to remain fixed while scrolling */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Light container background color */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333333; /* Label text color */
+}
+
+form input {
+    width: 97%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #777777; /* Darker border color */
+    border-radius: 3px;
+    background-color: #ffffff; /* Light input background color */
+    color: #333333; /* Input text color */
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.suggestions li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f0f0f0; /* Light list item background color */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333333; /* Heading text color */
+}
+
+.suggestions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.suggestions li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #e6e6e6; /* Light list item background color */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #333333; /* Heading text color */
+}
+
+.suggestions p {
+    margin-bottom: 10px;
+}
+.thumbnail {
+    text-align: center; /* Center content horizontally */
+    margin-bottom: 10px; /* Add some spacing below each thumbnail */
+}
+
+.thumbnail img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    height: auto; /* Maintain the aspect ratio */
+}
+.container form select,
+.container form button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #777777;
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: #333333;
+    box-sizing: border-box;
+}
+.container form button {
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+    background-color: #007bff; /* Blue background color */
+    color: #ffffff; /* Text color */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
